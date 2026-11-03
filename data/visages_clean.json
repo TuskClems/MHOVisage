@@ -1,0 +1,846 @@
+[
+  {
+    "id": "rathian",
+    "name": "Rathian",
+    "cost": 3,
+    "sets": [
+      "Ink of Flames"
+    ],
+    "img": "https://img.gamewith.jp/img/f36f12e45c4279cf2935275576acd622.png",
+    "local_img": "images/rathian.png",
+    "core_effect": "When equipped with a fire weapon, fire damage +7%.",
+    "potential_effects": [
+      "Attack Power",
+      "Affinity",
+      "Crit Damage",
+      "Ele. Crit DMG",
+      "Damage Reduction",
+      "Attack",
+      "Defense"
+    ],
+    "is_radiant": false,
+    "primary_element": "Fire"
+  },
+  {
+    "id": "rathalos",
+    "name": "Rathalos",
+    "cost": 3,
+    "sets": [
+      "Ink of Guidance",
+      "Ink of Combat"
+    ],
+    "img": "https://img.gamewith.jp/img/e649449a958552684ab6d95ef6a1f7a0.png",
+    "local_img": "images/rathalos.png",
+    "core_effect": "After an ultimate inflicts suppression on a monster, squad damage +6% for 30s. Cooldown: 60s.",
+    "potential_effects": [
+      "Attack Power",
+      "Affinity",
+      "Crit Damage",
+      "Ele. Crit DMG",
+      "Damage Reduction",
+      "Attack",
+      "Defense"
+    ],
+    "is_radiant": false,
+    "primary_element": "Support/DPS"
+  },
+  {
+    "id": "diablos",
+    "name": "Diablos",
+    "cost": 4,
+    "sets": [
+      "Ink of Protection"
+    ],
+    "img": "https://img.gamewith.jp/img/8f029c59f8b50b737d38bc147ccac1ab.png",
+    "local_img": "images/diablos.png",
+    "core_effect": "When equipped with a physical or ailment weapon, physical damage +3.5%.",
+    "potential_effects": [
+      "Attack Power",
+      "Fire Damage Bonus",
+      "Water Damage Bonus",
+      "Ice Damage Bonus",
+      "Thunder Damage Bonus",
+      "Dragon Damage Bonus",
+      "Physical Damage",
+      "Damage Reduction",
+      "Attack",
+      "Defense"
+    ],
+    "is_radiant": false,
+    "primary_element": "Defense"
+  },
+  {
+    "id": "barroth",
+    "name": "Barroth",
+    "cost": 4,
+    "sets": [
+      "Ink of Water",
+      "Ink of Protection"
+    ],
+    "img": "https://img.gamewith.jp/img/3c757f37db8ca026455401bd9c1faeda.png",
+    "local_img": "images/barroth.png",
+    "core_effect": "When equipped with a water weapon, water damage +7%.",
+    "potential_effects": [
+      "Attack Power",
+      "Fire Damage Bonus",
+      "Water Damage Bonus",
+      "Ice Damage Bonus",
+      "Thunder Damage Bonus",
+      "Dragon Damage Bonus",
+      "Physical Damage",
+      "Damage Reduction",
+      "Attack",
+      "Defense"
+    ],
+    "is_radiant": false,
+    "primary_element": "Water"
+  },
+  {
+    "id": "radiant-barroth",
+    "name": "Radiant Barroth",
+    "cost": 3,
+    "sets": [
+      "Ink of Water"
+    ],
+    "img": "https://img.gamewith.jp/img/3324e82a4b42a04335937af407f11a73.png",
+    "local_img": "images/radiant-barroth.png",
+    "core_effect": "When charge reaches its highest level, water damage +10% for 45s.",
+    "potential_effects": [
+      "Attack Power",
+      "Affinity",
+      "Crit Damage",
+      "Ele. Crit DMG",
+      "Damage Reduction",
+      "Attack",
+      "Defense"
+    ],
+    "is_radiant": true,
+    "primary_element": "Water"
+  },
+  {
+    "id": "anjanath",
+    "name": "Anjanath",
+    "cost": 3,
+    "sets": [
+      "Ink of Grace"
+    ],
+    "img": "https://img.gamewith.jp/img/ecb6fbfa4f30603291c20dea42a094cd.png",
+    "local_img": "images/anjanath.png",
+    "core_effect": "After an adventurer uses a buff squadmate skill, squad damage +3.5% for 60s.",
+    "potential_effects": [
+      "Attack Power",
+      "Affinity",
+      "Crit Damage",
+      "Ele. Crit DMG",
+      "Damage Reduction",
+      "Attack",
+      "Defense"
+    ],
+    "is_radiant": false,
+    "primary_element": "Support"
+  },
+  {
+    "id": "radiant-anjanath",
+    "name": "Radiant Anjanath",
+    "cost": 3,
+    "sets": [
+      "Ink of Might"
+    ],
+    "img": "https://img.gamewith.jp/img/d8ccbd81672af6b935b4de43abee6b47.png",
+    "local_img": "images/radiant-anjanath.png",
+    "core_effect": "During charged attacks, dragon damage +10%.",
+    "potential_effects": [
+      "Attack Power",
+      "Affinity",
+      "Crit Damage",
+      "Ele. Crit DMG",
+      "Damage Reduction",
+      "Attack",
+      "Defense"
+    ],
+    "is_radiant": true,
+    "primary_element": "Physical"
+  },
+  {
+    "id": "radiant-great-jagras",
+    "name": "Radiant Great Jagras",
+    "cost": 4,
+    "sets": [
+      "Ink of Guidance"
+    ],
+    "img": "https://img.gamewith.jp/img/2d56e4f2a84343f1738ad0eab7dee365.png",
+    "local_img": "images/radiant-great-jagras.png",
+    "core_effect": "After eating a BBQ, fire damage +10% for 45s. Effect ends early after taking 100 total damage.",
+    "potential_effects": [
+      "Attack Power",
+      "Fire Damage Bonus",
+      "Water Damage Bonus",
+      "Ice Damage Bonus",
+      "Thunder Damage Bonus",
+      "Dragon Damage Bonus",
+      "Physical Damage",
+      "Damage Reduction",
+      "Attack",
+      "Defense"
+    ],
+    "is_radiant": true,
+    "primary_element": "Support/DPS"
+  },
+  {
+    "id": "pukei-pukei",
+    "name": "Pukei-Pukei",
+    "cost": 3,
+    "sets": [
+      "Ink of Grace",
+      "Ink of Protection"
+    ],
+    "img": "https://img.gamewith.jp/img/b9441e2dc0fd8b8b355fd0e46ebffd19.png",
+    "local_img": "images/pukei-pukei.png",
+    "core_effect": "When an ultimate heals a squadmate, squad damage +3.5% for 60s.",
+    "potential_effects": [
+      "Attack Power",
+      "Affinity",
+      "Crit Damage",
+      "Ele. Crit DMG",
+      "Damage Reduction",
+      "Attack",
+      "Defense"
+    ],
+    "is_radiant": false,
+    "primary_element": "Support"
+  },
+  {
+    "id": "radiant-pukei-pukei",
+    "name": "Radiant Pukei-Pukei",
+    "cost": 3,
+    "sets": [
+      "Ink of Grace",
+      "Ink of Might"
+    ],
+    "img": "https://img.gamewith.jp/img/675b7af3c0e67567f18568baff5a8f34.png",
+    "local_img": "images/radiant-pukei-pukei.png",
+    "core_effect": "After using a skill that consumes a coating, water damage +10% for 45s.",
+    "potential_effects": [
+      "Attack Power",
+      "Affinity",
+      "Crit Damage",
+      "Ele. Crit DMG",
+      "Damage Reduction",
+      "Attack",
+      "Defense"
+    ],
+    "is_radiant": true,
+    "primary_element": "Support"
+  },
+  {
+    "id": "kulu-ya-ku",
+    "name": "Kulu-Ya-Ku",
+    "cost": 3,
+    "sets": [
+      "Ink of Might",
+      "Ink of Flames"
+    ],
+    "img": "https://img.gamewith.jp/img/02389b6f84966778870fb76b25728568.png",
+    "local_img": "images/kulu-ya-ku.png",
+    "core_effect": "Instinct +1. Attacks will not be deflected.",
+    "potential_effects": [
+      "Attack Power",
+      "Affinity",
+      "Crit Damage",
+      "Ele. Crit DMG",
+      "Damage Reduction",
+      "Attack",
+      "Defense"
+    ],
+    "is_radiant": false,
+    "primary_element": "Physical"
+  },
+  {
+    "id": "radiant-kulu-ya-ku",
+    "name": "Radiant Kulu-Ya-Ku",
+    "cost": 4,
+    "sets": [
+      "Ink of Flames",
+      "Ink of Guidance"
+    ],
+    "img": "https://img.gamewith.jp/img/738ffa5e58a6de6b1f11c990ccefd36d.png",
+    "local_img": "images/radiant-kulu-ya-ku.png",
+    "core_effect": "After triggering combo damage, fire damage +16% for 10s. Cooldown: 20s.",
+    "potential_effects": [
+      "Attack Power",
+      "Fire Damage Bonus",
+      "Water Damage Bonus",
+      "Ice Damage Bonus",
+      "Thunder Damage Bonus",
+      "Dragon Damage Bonus",
+      "Physical Damage",
+      "Damage Reduction",
+      "Attack",
+      "Defense"
+    ],
+    "is_radiant": true,
+    "primary_element": "Fire"
+  },
+  {
+    "id": "jyuratodus",
+    "name": "Jyuratodus",
+    "cost": 4,
+    "sets": [
+      "Ink of Water",
+      "Ink of Frost"
+    ],
+    "img": "https://img.gamewith.jp/img/3434d59033a60b013e626ecf1a2ce616.png",
+    "local_img": "images/jyuratodus.png",
+    "core_effect": "Unaffected by movement penalties when stuck in mud.",
+    "potential_effects": [
+      "Attack Power",
+      "Fire Damage Bonus",
+      "Water Damage Bonus",
+      "Ice Damage Bonus",
+      "Thunder Damage Bonus",
+      "Dragon Damage Bonus",
+      "Physical Damage",
+      "Damage Reduction",
+      "Attack",
+      "Defense"
+    ],
+    "is_radiant": false,
+    "primary_element": "Water"
+  },
+  {
+    "id": "radiant-jyuratodus",
+    "name": "Radiant Jyuratodus",
+    "cost": 3,
+    "sets": [
+      "Ink of Water",
+      "Ink of Protection"
+    ],
+    "img": "https://img.gamewith.jp/img/16bb066fc6a41fdd4fbd8a24f6702a28.png",
+    "local_img": "images/radiant-jyuratodus.png",
+    "core_effect": "After using shield, squad defense +10 and squad damage +4% for 45s.",
+    "potential_effects": [
+      "Attack Power",
+      "Affinity",
+      "Crit Damage",
+      "Ele. Crit DMG",
+      "Damage Reduction",
+      "Attack",
+      "Defense"
+    ],
+    "is_radiant": true,
+    "primary_element": "Water"
+  },
+  {
+    "id": "tobi-kadachi",
+    "name": "Tobi-Kadachi",
+    "cost": 4,
+    "sets": [
+      "Ink of Thunder",
+      "Ink of Grace"
+    ],
+    "img": "https://img.gamewith.jp/img/ad9256c944f83f74d68109c71cfd3f41.png",
+    "local_img": "images/tobi-kadachi.png",
+    "core_effect": "When equipped with a thunder weapon, thunder damage +7%.",
+    "potential_effects": [
+      "Attack Power",
+      "Fire Damage Bonus",
+      "Water Damage Bonus",
+      "Ice Damage Bonus",
+      "Thunder Damage Bonus",
+      "Dragon Damage Bonus",
+      "Physical Damage",
+      "Damage Reduction",
+      "Attack",
+      "Defense"
+    ],
+    "is_radiant": false,
+    "primary_element": "Thunder"
+  },
+  {
+    "id": "great-girros",
+    "name": "Great Girros",
+    "cost": 4,
+    "sets": [
+      "Ink of Thunder",
+      "Ink of Grace"
+    ],
+    "img": "https://img.gamewith.jp/img/ae25ca060cbba447c7401de644412502.png",
+    "local_img": "images/great-girros.png",
+    "core_effect": "Paralysis Resistance +3. Prevents paralysis.",
+    "potential_effects": [
+      "Attack Power",
+      "Fire Damage Bonus",
+      "Water Damage Bonus",
+      "Ice Damage Bonus",
+      "Thunder Damage Bonus",
+      "Dragon Damage Bonus",
+      "Physical Damage",
+      "Damage Reduction",
+      "Attack",
+      "Defense"
+    ],
+    "is_radiant": false,
+    "primary_element": "Thunder"
+  },
+  {
+    "id": "odogaron",
+    "name": "Odogaron",
+    "cost": 3,
+    "sets": [
+      "Ink of Combat",
+      "Ink of Dragon"
+    ],
+    "img": "https://img.gamewith.jp/img/accaea630d81a1e031eb981965945a4a.png",
+    "local_img": "images/odogaron.png",
+    "core_effect": "Bleeding Resistance +3. Prevents bleeding.",
+    "potential_effects": [
+      "Attack Power",
+      "Affinity",
+      "Crit Damage",
+      "Ele. Crit DMG",
+      "Damage Reduction",
+      "Attack",
+      "Defense"
+    ],
+    "is_radiant": false,
+    "primary_element": "Affinity"
+  },
+  {
+    "id": "radobaan",
+    "name": "Radobaan",
+    "cost": 3,
+    "sets": [
+      "Ink of Resonance",
+      "Ink of Frost"
+    ],
+    "img": "https://img.gamewith.jp/img/5745a63638b0aebc658bf096b0539de6.png",
+    "local_img": "images/radobaan.png",
+    "core_effect": "Sleep Resistance +3. Prevents sleep.",
+    "potential_effects": [
+      "Attack Power",
+      "Affinity",
+      "Crit Damage",
+      "Ele. Crit DMG",
+      "Damage Reduction",
+      "Attack",
+      "Defense"
+    ],
+    "is_radiant": false,
+    "primary_element": "Affinity/DPS"
+  },
+  {
+    "id": "radiant-rathian",
+    "name": "Radiant Rathian",
+    "cost": 4,
+    "sets": [
+      "Ink of Flames"
+    ],
+    "img": "https://img.gamewith.jp/img/f216115fd4cf9e89163eb40a4cae0f06.png",
+    "local_img": "images/radiant-rathian.png",
+    "core_effect": "After triggering rupture damage, fire damage +10% for 20s.",
+    "potential_effects": [
+      "Attack Power",
+      "Fire Damage Bonus",
+      "Water Damage Bonus",
+      "Ice Damage Bonus",
+      "Thunder Damage Bonus",
+      "Dragon Damage Bonus",
+      "Physical Damage",
+      "Damage Reduction",
+      "Attack",
+      "Defense"
+    ],
+    "is_radiant": true,
+    "primary_element": "Fire"
+  },
+  {
+    "id": "aptonoth",
+    "name": "Aptonoth",
+    "cost": 1,
+    "sets": [
+      "Ink of Protection"
+    ],
+    "img": "https://img.gamewith.jp/img/62c4514ad1c9aed50e7f97d938bc9a4f.png",
+    "local_img": "images/aptonoth.png",
+    "core_effect": "None (cost 1 visages have no core effect)",
+    "potential_effects": [
+      "Defense",
+      "Damage Reduction",
+      "Attack"
+    ],
+    "is_radiant": false,
+    "primary_element": "Defense"
+  },
+  {
+    "id": "apceros",
+    "name": "Apceros",
+    "cost": 1,
+    "sets": [
+      "Ink of Protection",
+      "Ink of Water"
+    ],
+    "img": "https://img.gamewith.jp/img/95fd4dc62699b9a90129c4a40246acbb.png",
+    "local_img": "images/apceros.png",
+    "core_effect": "None (cost 1 visages have no core effect)",
+    "potential_effects": [
+      "Defense",
+      "Damage Reduction",
+      "Attack"
+    ],
+    "is_radiant": false,
+    "primary_element": "Defense"
+  },
+  {
+    "id": "kelbi",
+    "name": "Kelbi",
+    "cost": 1,
+    "sets": [
+      "Ink of Frost",
+      "Ink of Grace"
+    ],
+    "img": "https://img.gamewith.jp/img/1f8280040f26fbb0827586949c466295.png",
+    "local_img": "images/kelbi.png",
+    "core_effect": "None (cost 1 visages have no core effect)",
+    "potential_effects": [
+      "Defense",
+      "Damage Reduction",
+      "Attack"
+    ],
+    "is_radiant": false,
+    "primary_element": "Ice"
+  },
+  {
+    "id": "hornetaur",
+    "name": "Hornetaur",
+    "cost": 1,
+    "sets": [
+      "Ink of Protection",
+      "Ink of Dragon"
+    ],
+    "img": "https://img.gamewith.jp/img/616e3cd331d0c7988c4fcd4a120384bc.png",
+    "local_img": "images/hornetaur.png",
+    "core_effect": "None (cost 1 visages have no core effect)",
+    "potential_effects": [
+      "Defense",
+      "Damage Reduction",
+      "Attack"
+    ],
+    "is_radiant": false,
+    "primary_element": "Defense"
+  },
+  {
+    "id": "vespoid",
+    "name": "Vespoid",
+    "cost": 1,
+    "sets": [
+      "Ink of Thunder",
+      "Ink of Guidance"
+    ],
+    "img": "https://img.gamewith.jp/img/0ba6e7a1e894a196c26d036adddf13fd.png",
+    "local_img": "images/vespoid.png",
+    "core_effect": "None (cost 1 visages have no core effect)",
+    "potential_effects": [
+      "Defense",
+      "Damage Reduction",
+      "Attack"
+    ],
+    "is_radiant": false,
+    "primary_element": "Thunder"
+  },
+  {
+    "id": "gajau",
+    "name": "Gajau",
+    "cost": 1,
+    "sets": [
+      "Ink of Water",
+      "Ink of Frost"
+    ],
+    "img": "https://img.gamewith.jp/img/79c6733d0514d9f6144c3629017ea132.png",
+    "local_img": "images/gajau.png",
+    "core_effect": "None (cost 1 visages have no core effect)",
+    "potential_effects": [
+      "Defense",
+      "Damage Reduction",
+      "Attack"
+    ],
+    "is_radiant": false,
+    "primary_element": "Water"
+  },
+  {
+    "id": "jagras",
+    "name": "Jagras",
+    "cost": 1,
+    "sets": [
+      "Ink of Resonance",
+      "Ink of Combat"
+    ],
+    "img": "https://img.gamewith.jp/img/a74b29ccd633f906dc5e5fde7a71814b.png",
+    "local_img": "images/jagras.png",
+    "core_effect": "None (cost 1 visages have no core effect)",
+    "potential_effects": [
+      "Defense",
+      "Damage Reduction",
+      "Attack"
+    ],
+    "is_radiant": false,
+    "primary_element": "Affinity/DPS"
+  },
+  {
+    "id": "mernos",
+    "name": "Mernos",
+    "cost": 1,
+    "sets": [
+      "Ink of Water",
+      "Ink of Thunder"
+    ],
+    "img": "https://img.gamewith.jp/img/ec4ee8092975061be19eb3a8a3940c3d.png",
+    "local_img": "images/mernos.png",
+    "core_effect": "None (cost 1 visages have no core effect)",
+    "potential_effects": [
+      "Defense",
+      "Damage Reduction",
+      "Attack"
+    ],
+    "is_radiant": false,
+    "primary_element": "Water"
+  },
+  {
+    "id": "kestodon",
+    "name": "Kestodon",
+    "cost": 1,
+    "sets": [
+      "Ink of Might",
+      "Ink of Flames"
+    ],
+    "img": "https://img.gamewith.jp/img/3eb158f9986bd7ebbd15b13c78b6fab4.png",
+    "local_img": "images/kestodon.png",
+    "core_effect": "None (cost 1 visages have no core effect)",
+    "potential_effects": [
+      "Defense",
+      "Damage Reduction",
+      "Attack"
+    ],
+    "is_radiant": false,
+    "primary_element": "Physical"
+  },
+  {
+    "id": "raphinos",
+    "name": "Raphinos",
+    "cost": 1,
+    "sets": [
+      "Ink of Grace",
+      "Ink of Frost"
+    ],
+    "img": "https://img.gamewith.jp/img/86b57d55a277e7170f68a4b80d2faa39.png",
+    "local_img": "images/raphinos.png",
+    "core_effect": "None (cost 1 visages have no core effect)",
+    "potential_effects": [
+      "Defense",
+      "Damage Reduction",
+      "Attack"
+    ],
+    "is_radiant": false,
+    "primary_element": "Support"
+  },
+  {
+    "id": "shamos",
+    "name": "Shamos",
+    "cost": 1,
+    "sets": [
+      "Ink of Grace",
+      "Ink of Resonance"
+    ],
+    "img": "https://img.gamewith.jp/img/20044a2e1cee10e3efac7356a12d316b.png",
+    "local_img": "images/shamos.png",
+    "core_effect": "None (cost 1 visages have no core effect)",
+    "potential_effects": [
+      "Defense",
+      "Damage Reduction",
+      "Attack"
+    ],
+    "is_radiant": false,
+    "primary_element": "Support"
+  },
+  {
+    "id": "barnos",
+    "name": "Barnos",
+    "cost": 1,
+    "sets": [
+      "Ink of Flames",
+      "Ink of Dragon"
+    ],
+    "img": "https://img.gamewith.jp/img/2c283a482529e3f81d8f735f10b049b0.png",
+    "local_img": "images/barnos.png",
+    "core_effect": "None (cost 1 visages have no core effect)",
+    "potential_effects": [
+      "Defense",
+      "Damage Reduction",
+      "Attack"
+    ],
+    "is_radiant": false,
+    "primary_element": "Fire"
+  },
+  {
+    "id": "girros",
+    "name": "Girros",
+    "cost": 1,
+    "sets": [
+      "Ink of Thunder",
+      "Ink of Combat"
+    ],
+    "img": "https://img.gamewith.jp/img/5bfd33ab00e8941773ddddca2d29841b.png",
+    "local_img": "images/girros.png",
+    "core_effect": "None (cost 1 visages have no core effect)",
+    "potential_effects": [
+      "Defense",
+      "Damage Reduction",
+      "Attack"
+    ],
+    "is_radiant": false,
+    "primary_element": "Thunder"
+  },
+  {
+    "id": "gastodon",
+    "name": "Gastodon",
+    "cost": 1,
+    "sets": [
+      "Ink of Might",
+      "Ink of Dragon"
+    ],
+    "img": "https://img.gamewith.jp/img/3ef0be190d6ec9171f192eb5c02ebb06.png",
+    "local_img": "images/gastodon.png",
+    "core_effect": "None (cost 1 visages have no core effect)",
+    "potential_effects": [
+      "Defense",
+      "Damage Reduction",
+      "Attack"
+    ],
+    "is_radiant": false,
+    "primary_element": "Physical"
+  },
+  {
+    "id": "noios",
+    "name": "Noios",
+    "cost": 1,
+    "sets": [
+      "Ink of Guidance",
+      "Ink of Flames"
+    ],
+    "img": "https://img.gamewith.jp/img/f55789fae24f64d84734d7b1e4838532.png",
+    "local_img": "images/noios.png",
+    "core_effect": "None (cost 1 visages have no core effect)",
+    "potential_effects": [
+      "Defense",
+      "Damage Reduction",
+      "Attack"
+    ],
+    "is_radiant": false,
+    "primary_element": "Support/DPS"
+  },
+  {
+    "id": "warrior-atecoli",
+    "name": "Warrior Atecoli",
+    "cost": 1,
+    "sets": [
+      "Ink of Might",
+      "Ink of Combat"
+    ],
+    "img": "https://img.gamewith.jp/img/e8a56c1b306268d635aea300b302fe24.png",
+    "local_img": "images/warrior-atecoli.png",
+    "core_effect": "None (cost 1 visages have no core effect)",
+    "potential_effects": [
+      "Defense",
+      "Damage Reduction",
+      "Attack"
+    ],
+    "is_radiant": false,
+    "primary_element": "Physical"
+  },
+  {
+    "id": "pitcher-atecoli",
+    "name": "Pitcher Atecoli",
+    "cost": 1,
+    "sets": [
+      "Ink of Resonance",
+      "Ink of Guidance"
+    ],
+    "img": "https://img.gamewith.jp/img/4eaac79bbfbeffe4d24b117d8ea9f410.png",
+    "local_img": "images/pitcher-atecoli.png",
+    "core_effect": "None (cost 1 visages have no core effect)",
+    "potential_effects": [
+      "Defense",
+      "Damage Reduction",
+      "Attack"
+    ],
+    "is_radiant": false,
+    "primary_element": "Affinity/DPS"
+  },
+  {
+    "id": "great-jagras",
+    "name": "Great Jagras",
+    "cost": 3,
+    "sets": [
+      "Ink of Dragon",
+      "Ink of Resonance"
+    ],
+    "img": "https://img.gamewith.jp/img/2fd5e01a8c958eb094402ae577c1adfd.png",
+    "local_img": "images/great-jagras.png",
+    "core_effect": "Quick-Bite +3. Greatly increases the speed of eating meat and using items.",
+    "potential_effects": [
+      "Attack Power",
+      "Affinity",
+      "Crit Damage",
+      "Ele. Crit DMG",
+      "Damage Reduction",
+      "Attack",
+      "Defense"
+    ],
+    "is_radiant": false,
+    "primary_element": "Dragon"
+  },
+  {
+    "id": "radiant-tobi-kadachi",
+    "name": "Radiant Tobi-Kadachi",
+    "cost": 3,
+    "sets": [
+      "Ink of Thunder"
+    ],
+    "img": "https://img.gamewith.jp/img/3e8db9f5a88aed85224990628920b679.png",
+    "local_img": "images/radiant-tobi-kadachi.png",
+    "core_effect": "When dealing piercing damage, thunder damage +10%.",
+    "potential_effects": [
+      "Attack Power",
+      "Affinity",
+      "Crit Damage",
+      "Ele. Crit DMG",
+      "Damage Reduction",
+      "Attack",
+      "Defense"
+    ],
+    "is_radiant": true,
+    "primary_element": "Thunder"
+  },
+  {
+    "id": "radiant-great-girros",
+    "name": "Radiant Great Girros",
+    "cost": 3,
+    "sets": [
+      "Ink of Thunder",
+      "Ink of Grace"
+    ],
+    "img": "https://img.gamewith.jp/img/08cf4befdc22f9db967ac9d1ad839431.png",
+    "local_img": "images/radiant-great-girros.png",
+    "core_effect": "After triggering combo damage, thunder damage +10% for 15s.",
+    "potential_effects": [
+      "Attack Power",
+      "Affinity",
+      "Crit Damage",
+      "Ele. Crit DMG",
+      "Damage Reduction",
+      "Attack",
+      "Defense"
+    ],
+    "is_radiant": true,
+    "primary_element": "Thunder"
+  }
+]

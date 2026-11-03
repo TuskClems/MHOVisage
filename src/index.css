@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#0b0e14] text-slate-100 min-h-screen;
+    background-image: 
+      radial-gradient(circle at 50% 0%, rgba(223, 170, 66, 0.08) 0%, transparent 45%),
+      radial-gradient(circle at 100% 50%, rgba(59, 130, 246, 0.04) 0%, transparent 40%),
+      radial-gradient(circle at 0% 80%, rgba(249, 115, 22, 0.04) 0%, transparent 40%);
+    background-attachment: fixed;
+  }
+}
+
+/* Glassmorphism surfaces */
+.hunter-panel {
+  @apply bg-[#131720]/80 backdrop-blur-md border border-slate-800/80 rounded-xl shadow-xl shadow-black/40;
+}
+
+.hunter-panel-hover {
+  @apply transition-all duration-200 hover:border-amber-500/40 hover:shadow-amber-500/10 hover:shadow-lg;
+}
+
+/* Gold glow accents */
+.gold-glow {
+  text-shadow: 0 0 16px rgba(223, 170, 66, 0.5);
+}
+
+.gold-border-glow {
+  box-shadow: 0 0 15px rgba(223, 170, 66, 0.25);
+}
+

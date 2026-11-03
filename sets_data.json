@@ -1,0 +1,79 @@
+{
+  "Ink of Flames": {
+    "slug": "ink-of-flames",
+    "name": "Ink of Flames",
+    "count": 7,
+    "two_piece": "Fire damage +5%.",
+    "four_piece": "After hitting a weak point, fire damage +24% for 20s."
+  },
+  "Ink of Guidance": {
+    "slug": "ink-of-guidance",
+    "name": "Ink of Guidance",
+    "count": 6,
+    "two_piece": "Ultimate charge rate +5%.",
+    "four_piece": "Within 8s after an ultimate inflicts suppression on a monster, each time the squad uses an ultimate, squad damage +2.2% for 60s, up to 3 stacks."
+  },
+  "Ink of Combat": {
+    "slug": "ink-of-combat",
+    "name": "Ink of Combat",
+    "count": 5,
+    "two_piece": "Affinity +5%.",
+    "four_piece": "When an ultimate inflicts a debuff on a monster, squad damage +6.5% for 60s."
+  },
+  "Ink of Protection": {
+    "slug": "ink-of-protection",
+    "name": "Ink of Protection",
+    "count": 7,
+    "two_piece": "Ultimate charge rate +5%.",
+    "four_piece": "When an adventurer and Buddy grant a squadmate healing or shield effect, the effect +20%, squad damage +6% for 45s."
+  },
+  "Ink of Water": {
+    "slug": "ink-of-water",
+    "name": "Ink of Water",
+    "count": 7,
+    "two_piece": "Water damage +5%.",
+    "four_piece": "Each time a squadmate unleashes an ultimate, water damage +6% for 60s, up to 4 stacks."
+  },
+  "Ink of Grace": {
+    "slug": "ink-of-grace",
+    "name": "Ink of Grace",
+    "count": 9,
+    "two_piece": "Ultimate charge rate +5%.",
+    "four_piece": "When an adventurer grants a squadmate a buff, squad damage +6.5% for 60s."
+  },
+  "Ink of Might": {
+    "slug": "ink-of-might",
+    "name": "Ink of Might",
+    "count": 6,
+    "two_piece": "Physical damage +5%.",
+    "four_piece": "After landing a critical hit, physical damage +12% for 60s."
+  },
+  "Ink of Frost": {
+    "slug": "ink-of-frost",
+    "name": "Ink of Frost",
+    "count": 5,
+    "two_piece": "Ice damage +5%.",
+    "four_piece": "After hitting a monster, ice damage +24% for 8s."
+  },
+  "Ink of Thunder": {
+    "slug": "ink-of-thunder",
+    "name": "Ink of Thunder",
+    "count": 7,
+    "two_piece": "Thunder damage +5%.",
+    "four_piece": "After dealing damage to monsters, thunder damage +5% for 12s, up to 5 stacks."
+  },
+  "Ink of Dragon": {
+    "slug": "ink-of-dragon",
+    "name": "Ink of Dragon",
+    "count": 5,
+    "two_piece": "Dragon damage +5%.",
+    "four_piece": "After using an ultimate, dragon damage +24% for 60s."
+  },
+  "Ink of Resonance": {
+    "slug": "ink-of-resonance",
+    "name": "Ink of Resonance",
+    "count": 5,
+    "two_piece": "Affinity +5%.",
+    "four_piece": "When not playing as the Main Adventurer, ultimate damage +32%."
+  }
+}
