@@ -1,55 +1,56 @@
-# 🐉 Monster Hunter Outlanders — Visage Codex & Set Builder
+# 🐉 Monster Hunter Outlanders — Visage Hunting Kiosk
 
-A fast, responsive, and intuitive web application remaking the Monster Hunter Outlanders Visage system with superior navigation, real-time filtering, sub-stat lookup, and an interactive Set Synergy & Loadout Simulator.
-
-## ✨ Why this is a 10x upgrade over GameWith
-
-| Feature | GameWith | Our Remake |
-| :--- | :--- | :--- |
-| **Navigation & Layout** | Cluttered gaming wiki sidebars, 30% wasted space, cumbersome multi-page loads. | Clean, full-bleed Monster Hunter dark slate & gold theme with sticky top navigation and zero clutter. |
-| **Set Synergies** | Text cards that navigate away when clicked. | Interactive 11-Set Matrix. Clicking any set filters the roster instantly, showing active 2-pc and 4-pc effects. |
-| **Core Effects Access** | Hidden inside individual subpages — requiring 39 separate page clicks. | Displayed right on the card and in the compact table, highlighting specific stat boosts. |
-| **Sub-Stat Roll Finder** | No way to see what rolls where without manual cross-referencing. | Dedicated Roll Finder: click any stat (e.g. Affinity, Ele. Crit DMG) to see every monster visage that carries it. |
-| **Loadout Builder** | ❌ None. Players have to calculate 10-cost limits and set pieces manually. | ✅ **Interactive Builder**: Equip visages (4+3+3, 4+4+1+1, etc.), track cost capacity (10/10), and watch 2pc & 4pc bonuses light up live! |
-| **View Modes** | Desktop table / Mobile list with stiff breakpoints. | Seamless toggle between **Visual Card Grid** and **Compact Table View**. |
-| **Companions & Synergy** | No companion linking. | Visage Inspect Modal shows companion monsters that share the same Ink sets. |
+An interactive, touch-friendly 3-Step Kiosk web application for **Monster Hunter Outlanders** detailing monster visages, ink types, innate perks, 2-piece and 4-piece set activations, and cost values.
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Live Demo & GitHub Pages
 
-The development server is currently running at:
-👉 **[http://localhost:5173/](http://localhost:5173/)**
+This repository is pre-configured with automated **GitHub Actions** deployment.
 
-### Scripts
+### 🌐 Deploying to your own GitHub Pages:
+
+1. **Create a new GitHub Repository**:
+   - Go to [https://github.com/new](https://github.com/new).
+   - Enter a name (e.g. `mho-visages`).
+   - Set visibility to **Public**.
+   - Click **Create repository**.
+
+2. **Push this code to GitHub**:
+   ```bash
+   git remote add origin https://github.com/<YOUR-USERNAME>/<YOUR-REPO-NAME>.git
+   git branch -M main
+   git push -u origin main
+   ```
+
+3. **Enable GitHub Pages**:
+   - In your repo, go to **Settings** > **Pages**.
+   - Under **Source**, select **GitHub Actions**.
+   - GitHub will automatically run the build and publish your website at:
+     `https://<YOUR-USERNAME>.github.io/<YOUR-REPO-NAME>/`
+
+---
+
+## 🕹️ Features
+
+- **Step 1: Choose Ink Type / Element** (Fire, Ice, Thunder, Water, Dragon, Physical, etc.) with set perk previews.
+- **Step 2: Choose Monster to Hunt** (Filtered by the chosen ink type, with Cost 4, Cost 3, and Cost 1 filters).
+- **Step 3: Monster & Perk Dossier** (Cost tier breakdown, innate monster perks, 2pc & 4pc bonuses, and companion monsters).
+- **Sub-Stat Roll Finder**: Select any desired roll (e.g. Affinity, Crit DMG, Ele. Crit DMG) to see which monsters drop it.
+- **Cost & Perks Guide**: Explains why monsters cost 4, 3, or 1 and how set bonuses activate.
+- **Zero Config Relative Paths**: Uses `base: './'` so it works on any GitHub repository URL.
+
+---
+
+## 💻 Local Development
 
 ```bash
-# Start Vite development server
+# Install dependencies
+npm install
+
+# Start local dev server
 npm run dev
 
-# Create an optimized production build
+# Build single-file production bundle
 npm run build
-
-# Preview the production build locally
-npm run preview
 ```
-
----
-
-## 🗂️ Data Included
-
-- **All 39 Monster Visages**: Diablos, Rathalos, Rathian, Barroth, Anjanath, Pukei-Pukei, Radiant Variants, and Cost 1 endemic monsters with downloaded high-resolution icons.
-- **All 11 Ink Sets**:
-  - Ink of Flames (Fire DPS)
-  - Ink of Frost (Ice DPS)
-  - Ink of Thunder (Thunder Stacking DPS)
-  - Ink of Water (Water Stacking DPS)
-  - Ink of Dragon (Dragon Ultimate DPS)
-  - Ink of Might (Physical Crit DPS)
-  - Ink of Combat (Affinity & Debuff Synergy)
-  - Ink of Guidance (Ultimate Suppression Squad Buff)
-  - Ink of Protection (Healing & Shield Enhancer)
-  - Ink of Grace (Squad Buff Empowerer)
-  - Ink of Resonance (Sub-DPS Off-Field Ultimate)
-- **All 13 Rollable Potential Effects** with full mapping.
-
